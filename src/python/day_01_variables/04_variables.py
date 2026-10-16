@@ -24,3 +24,9 @@ print(len(input("What is your name? ")))
 username = input("What is your username? ")
 lenth = len(username)
 print(f"Your username has {lenth} characters.")
+
+city = input("What city did you grow up in?\n")
+animal = input("What is your favorite animal?\n ")
+print(f"Your band name could be {city} {animal}.")
+
+# \n is an escape sequence that represents a new line. It can be used to format strings and create multi-line output.
